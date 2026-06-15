@@ -10,5 +10,6 @@ public class SwapNumbers {
         n1=n2;
         n2=temp;
         System.out.println(n1 + " " + n2);
+        sc.close();
     }
 }
