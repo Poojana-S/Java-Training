@@ -8,7 +8,10 @@ public class Palindrome {
         for(int i=s.length()-1;i>=0;i--){
             rev+=s.charAt(i);
         }
-        System.out.println("Reverse: " + rev);
+        if(s.equals(rev))
+            System.out.println("Palindrome");
+        else
+            System.out.println("Not Palindrome");
         sc.close();
     }
 }
