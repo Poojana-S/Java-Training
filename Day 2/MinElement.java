@@ -14,5 +14,6 @@ public class MinElement {
                 min=arr[i];
         }
         System.out.println("Max Element: " + min);
+        sc.close();
     }    
 }
