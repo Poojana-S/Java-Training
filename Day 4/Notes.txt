@@ -1,0 +1,8 @@
+Thread Life Cycle
+    New -> Runnable -> Running -> Wait -> Dead
+
+New -> Create (new())
+Runnable -> Ready to Run (run())
+Running -> Running (start())
+Wait -> Suspended (suspend(time), notify(), notifyAll(), resume(), wait(time))
+Dead -> End or close (stop())
